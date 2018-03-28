@@ -1,0 +1,129 @@
+@import '~antd/dist/antd.css';
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+             "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+             SimSun, sans-serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 40px;
+}
+
+.body-loading {
+  width: 100%;
+  height: 100%;
+  line-height: 400px;
+  text-align: center;
+  font-size: 64px;
+  color: rgba(0,0,0,0.45)
+}
+
+.Posts {
+  margin: 2%;
+}
+
+.Page_404 {
+  margin: 2%;
+}
+
+.padding-m {
+  height: 32px;
+}
+
+.padding-s {
+  height: 16px;
+}
+
+.selected {
+  color: rgba(0,0,0,0.75)
+}
+
+.Selector {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.ant-select-selection {
+  border: none;
+}
+
+.ant-select-open .ant-select-selection{
+  box-shadow: none;
+  border: none;
+}
+
+.ant-select-focused .ant-select-selection{
+  box-shadow:none;
+}
+
+.ant-select-dropdown {
+  border-radius: 0;
+}
+
+.ant-select {
+  font-size: 20px;
+}
+
+.line-24 {
+  width: 24%;
+  border-bottom: 2px rgba(0,0,0,0.05) solid;
+  margin-left: 7px;
+  border-radius: 1px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-content {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 7px;
+  width: 60%;
+  color: rgba(0,0,0,0.65);
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.Reply {
+  width: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.reply-title {
+  font-size: 18px;
+  margin-left: 7px;
+}
+
+.reply-body {
+  margin-left: 7px;
+  padding-bottom: 4px;
+}
+
+.reply-username{
+  font-size: 14px;
+  color: rgba(0,0,0,0.65);
+}
+
+.reply-content{
+  font-size: 12px;
+  color: rgba(0,0,0,0.35);
+  line-height: 18px;
+}
